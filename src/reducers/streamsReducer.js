@@ -1,18 +1,3 @@
-// const initialState = [];
-
-// const streamsReducer = (state = initialState, action) => {
-//   switch (action.type) {
-//     case "FETCH_STREAMS":
-//       return action.payload;
-//     case "CREATE_STREAM":
-//       return [...state, action.payload];
-//     default:
-//       return state;
-//   }
-// };
-
-// export default streamsReducer;
-
 const initialState = [];
 
 const streamsReducer = (state = initialState, action) => {
