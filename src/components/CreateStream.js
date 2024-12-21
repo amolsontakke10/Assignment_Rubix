@@ -69,6 +69,9 @@ const CreateStream = () => {
 
           <div className="ui center aligned">
             <button className="ui primary button large">Create Stream</button>
+            <button className="ui primary button large">
+              Create another Stream
+            </button>
           </div>
         </form>
       </div>
