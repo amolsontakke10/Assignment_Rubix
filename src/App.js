@@ -8,6 +8,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="ui container">
+        <h1>v1</h1>
         <Routes>
           <Route path="/" element={<StreamList />} />
           <Route path="/create" element={<CreateStream />} />
